@@ -68,7 +68,10 @@ header .header-reight{
     font-weight: 400;
     margin-top: 15px;
    }
-
+  header .header-left .links i {
+   font-size: 24px;
+   color: blue;
+}
 
    header .header-reight{
     flex: 5;
