@@ -72,21 +72,21 @@ header .header-reight{
     font-weight: 400;
     margin-top: 15px;
    }
-   header .header-left .links{
-    margin-top: 80px;
-   }
-   header .header-left .links a{
-    text-decoration: none ;
-    color: inherit;
-    position: relative;
-    margin-right: 40px;
-    font-weight: bold;
-   }
-   header .header-left .links a span{
-    position: absolute;
-    top: -5px;
-    right: -28px;
-   }
+ header .header-left .links {
+   display: flex;
+   justify-content: space-between;
+}
+
+ header .header-left .links h3 {
+   font-size: 24px;
+   color: blue;
+}
+
+ header .header-left .links i {
+   font-size: 24px;
+   color: blue;
+}
+
    header .header-reight{
     flex: 5;
    }
