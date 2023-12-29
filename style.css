@@ -52,7 +52,7 @@ header{
 }
 header .header-left{
     flex: 6;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 header .header-reight{
     height: 35px;
