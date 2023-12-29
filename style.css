@@ -42,11 +42,6 @@ ul li a{
 color: var(--text-color);
 text-decoration: none;
 }
-nav ul li a i{
-    
- width: 100%;
-
-}
     
 header{
     margin-top: 60px;
@@ -73,16 +68,17 @@ header .header-reight{
     margin-top: 15px;
    }
  header .header-left .links {
-   display: flex;
    justify-content: space-between;
 }
 
  header .header-left .links h3 {
-   font-size: 24px;
-   color: blue;
+   font-size: 1rem;
+ font-family: 'Roboto', sans-serif;
+   color: black;
 }
 
  header .header-left .links i {
+     width: 100%; 
    font-size: 24px;
    color: blue;
 }
