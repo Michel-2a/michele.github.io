@@ -39,8 +39,17 @@ top: -5px;
 right: -28px;
 }
 ul li a{
+    border: 2px solid ;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: var(--background-color);
+    color: #efe7e5;
 color: var(--text-color);
 text-decoration: none;
+}
+ul li a:hover{
+    background-color: rgb(1, 48, 48);
+    color: rgba(240, 206, 206, 0.753);
 }
 
 header{
