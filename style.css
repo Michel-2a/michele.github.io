@@ -6,11 +6,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.head{
+/* .head{
     background: url(./image/IMG_2817.JPG) no-repeat;
     background-size: cover;
     background-position: end bottom;
-}
+} */
+    .head{
+        background: #081b29;
+    }
 
 .header{
     width: 100%;
