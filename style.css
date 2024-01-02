@@ -233,7 +233,6 @@ color: #081b29;
    }
          .images .image-card .image-right p{
             font-size: 15px;
-             font-weight:300;
            }
 
     .images .image-card .image-left img{
@@ -243,9 +242,7 @@ color: #081b29;
    @media screen and (max-width:480px){
     .navbar a{
         margin-left: 5px;
-        display: flex;
-          align-items: center;
-        justify-content: center;
+    
     }
 
    }
