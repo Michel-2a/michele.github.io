@@ -219,7 +219,7 @@ color: #081b29;
     }
        .home-content .links{
             display: flex;
-    justify-content: flex-around;
+     justify-content: space-between;
     width: 250px;
     height:40px ;
      margin:0;
@@ -228,6 +228,12 @@ color: #081b29;
     font-size: 15px;
     margin:10px 0px 10px;
 }
+         .about p{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight:300;
+   }
 
     .images .image-card .image-left img{
         width: 100%;
