@@ -226,13 +226,13 @@ color: #081b29;
        .home-content .links{
             display: flex;
     justify-content: flex-start;
-    width: 200px;
-    height:30px ;
+    width: 300px;
+    height:40px ;
      margin:0;
 }
        .home-content p{
     font-size: 15px;
-    margin: 4px;
+    margin:10px 0px 10px;
 }
 
     .images .image-card .image-left img{
