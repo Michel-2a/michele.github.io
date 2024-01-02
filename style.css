@@ -199,12 +199,6 @@ color: #081b29;
         font-weight: 800;
         line-height: 1.2;
     }
-    .home-content .links{
-        margin-top: 40px;
-        display: inline-flex;
-        justify-content:space-around;
-        cursor: pointer;
-    }
         .images .image-card{
             flex-wrap: wrap;
         }
@@ -226,7 +220,7 @@ color: #081b29;
        .home-content .links{
             display: flex;
     justify-content: flex-start;
-    width: 300px;
+    width: 250px;
     height:40px ;
      margin:0;
 }
