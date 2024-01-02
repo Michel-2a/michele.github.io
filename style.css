@@ -224,7 +224,15 @@ color: #081b29;
         width: 250px;
     }
        .home-content .links{
+            display: flex;
+    justify-content: flex-start;
+    width: 200px;
+    height:30px ;
      margin:0;
+}
+       .home-content p{
+    font-size: 15px;
+    margin: 4px;
 }
 
     .images .image-card .image-left img{
