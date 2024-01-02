@@ -219,7 +219,7 @@ color: #081b29;
     }
        .home-content .links{
             display: flex;
-    justify-content: flex-start;
+    justify-content: flex-around;
     width: 250px;
     height:40px ;
      margin:0;
