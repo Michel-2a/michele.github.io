@@ -223,6 +223,9 @@ color: #081b29;
     header .header-reight img{
         width: 250px;
     }
+       .home-content .links{
+     margin:0;
+}
 
     .images .image-card .image-left img{
         width: 100%;
@@ -231,7 +234,7 @@ color: #081b29;
         align-items: center;
     }
    }
-   @media screen (max-width:480px){
+   @media screen and (max-width:480px){
     .navbar a{
         margin-left: 5px;
         display: flex;
