@@ -6,14 +6,13 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-/* .head{
-    background: url(./image/IMG_2817.JPG) no-repeat;
+.head{
+    
+    background-color: #081b29;
+     color:aliceblue;
     background-size: cover;
     background-position: end bottom;
-} */
-    .head{
-        background: #081b29;
-    }
+}
 
 .header{
     width: 100%;
@@ -38,7 +37,7 @@
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 20px;
     transition: .3s;
 }
 .navbar a:hover{
@@ -59,7 +58,7 @@
 }
 .home{
     height: 100vh;
-      color: #00abf0;
+    color: #080808;
     display: flex;
     align-items: center;
     padding: 0px 10%;
@@ -68,7 +67,8 @@
     width:600px ;
 }
 .home-content h1{
-    font-size: 30px;
+    color:aliceblue;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -78,41 +78,11 @@
     color: #00abf0;
 }
 .home-content p{
+   color:aliceblue;
     font-size: 15px;
     margin: 20px 0px 20px;
 }
-.home-content .links{
-    display: flex;
-    justify-content: space-between;
-    width: 340px;
-    height:50px ;
-    background: transparent;
-}
-.home-content .links a{
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 100%;
-    background: #00abf0;
-    border: 2px solid #00abf0;
-    border-radius: 8px;
-    font-size: 19px;
-    color: #081b29;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 1px;
-    transition: .5s;
-}
-.links a:nth-child(2){
-    background: transparent;
-    color: #00abf0;
-}
-.home-content .links a:hover{
-background: #ededed;
-color: #081b29;
-}
+
 .home-sci{
     position: absolute;
     bottom: 20px;
@@ -186,10 +156,6 @@ color: #081b29;
         padding: 2%;
         position: absolute;
     }
-    .navbar{
-        margin-left: -10px;
-        display: flex;
-    }
     .head{
         background: #081b29;
     }
@@ -202,17 +168,11 @@ color: #081b29;
         font-weight: 800;
         line-height: 1.2;
     }
-    .home-content .links{
-        margin-top: 40px;
-        display: inline-flex;
-        justify-content:space-around;
-        cursor: pointer;
-    }
         .images .image-card{
             flex-wrap: wrap;
         }
    }
-   @media screen and (max-width: 700px){
+   @media screen and (max-width: 320px){
 
     .pages{
         margin: 10px;
@@ -227,12 +187,30 @@ color: #081b29;
         width: 250px;
     }
 
+       .home-content p{
+    font-size: 15px;
+    margin:10px 0px 10px;
+}
+         .about p{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight:300;
+   }
+         .images .image-right p{
+            font-size: 15px;
+           }
+
     .images .image-card .image-left img{
         width: 100%;
     }
-    footer span{
-        align-items: center;
+   }
+   @media screen and (max-width:480px){
+    .navbar a{
+        margin-left: 5px;
+    
     }
+
    }
    
 
